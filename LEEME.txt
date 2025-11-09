@@ -1,0 +1,17 @@
+📘 INSTRUCCIONES PARA PUBLICAR EL SITIO EN VERCEL
+
+1️⃣ Crear cuenta en GitHub (https://github.com) y en Vercel (https://vercel.com)
+2️⃣ En GitHub, crear un nuevo repositorio (por ejemplo: mi-sitio).
+3️⃣ Subir todos los archivos de esta carpeta al repositorio.
+4️⃣ En Vercel, importar el repositorio desde GitHub y hacer clic en Deploy.
+5️⃣ Tu sitio estará en línea en unos segundos (ejemplo: https://mi-sitio.vercel.app).
+
+🔐 Para editar desde admin.html:
+- Abre admin.html en tu navegador.
+- Pega tu token de GitHub (se crea en https://github.com/settings/tokens → Generate new token → Fine-grained token).
+- Escribe el nuevo HTML para index.html y presiona "Actualizar sitio".
+- Vercel actualizará automáticamente tu página online.
+
+🌍 Traducción automática:
+- El sitio detecta el idioma del navegador.
+- Puedes cambiarlo con los botones de banderas.

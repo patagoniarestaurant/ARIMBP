@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="title">Bienvenido a mi sitio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="titulo" data-i18n="title">Bienvenido a mi sitio</h1>
+    <p id="descripcion" data-i18n="description">
+      Este es un ejemplo de sitio con traducción automática y actualización vía admin.
+    </p>
+    <div class="flags">
+      <button onclick="changeLanguage('es')">🇪🇸</button>
+      <button onclick="changeLanguage('en')">🇬🇧</button>
+      <button onclick="changeLanguage('fr')">🇫🇷</button>
+      <button onclick="changeLanguage('de')">🇩🇪</button>
+      <button onclick="changeLanguage('pt')">🇵🇹</button>
+      <button onclick="changeLanguage('zh')">🇨🇳</button>
+      <button onclick="changeLanguage('it')">🇮🇹</button>
+      <button onclick="changeLanguage('ru')">🇷🇺</button>
+    </div>
+  </div>
+  <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-browser-languagedetector@6.1.2/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+  <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

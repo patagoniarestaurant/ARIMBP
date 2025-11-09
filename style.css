@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 50px;
+}
+.flags button {
+  font-size: 24px;
+  margin: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+textarea {
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px;
+}
